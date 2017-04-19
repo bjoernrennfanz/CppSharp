@@ -67,6 +67,7 @@ struct CS_API CppParserOptions
     STRING(TargetTriple)
     CppAbi abi;
 
+    bool noRtti;
     bool noStandardIncludes;
     bool noBuiltinIncludes;
     bool microsoftMode;

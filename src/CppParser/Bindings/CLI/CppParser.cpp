@@ -215,6 +215,16 @@ void CppSharp::Parser::CppParserOptions::Abi::set(CppSharp::Parser::AST::CppAbi 
     ((::CppSharp::CppParser::CppParserOptions*)NativePtr)->abi = (::CppSharp::CppParser::AST::CppAbi)value;
 }
 
+bool CppSharp::Parser::CppParserOptions::NoRtti::get()
+{
+    return ((::CppSharp::CppParser::CppParserOptions*)NativePtr)->noRtti;
+}
+
+void CppSharp::Parser::CppParserOptions::NoRtti::set(bool value)
+{
+    ((::CppSharp::CppParser::CppParserOptions*)NativePtr)->noRtti = value;
+}
+
 bool CppSharp::Parser::CppParserOptions::NoStandardIncludes::get()
 {
     return ((::CppSharp::CppParser::CppParserOptions*)NativePtr)->noStandardIncludes;

@@ -114,6 +114,12 @@ namespace CppSharp
                 void set(CppSharp::Parser::AST::CppAbi);
             }
 
+            property bool NoRtti
+            {
+                bool get();
+                void set(bool);
+            }
+
             property bool NoStandardIncludes
             {
                 bool get();
